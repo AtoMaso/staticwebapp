@@ -9,7 +9,7 @@ trigger:
 
 pool:
   #vmImage: ubuntu-latest # examples of other options:'macOS-10.15','windows-latest'
-  pool: Azure Pipelines
+  name: Azure Pipelines
 
 steps:
 - task: NodeTool@0
