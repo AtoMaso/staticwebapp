@@ -8,8 +8,8 @@ trigger:
 - main
 
 pool:
-  vmImage: Azure Pipelines # examples of other options:'macOS-10.15','windows-latest'
-  
+  #vmImage: Azure Pipelines # examples of other options:'macOS-10.15','windows-latest'
+  pool: Azure Pipelines
 
 steps:
 - task: NodeTool@0
